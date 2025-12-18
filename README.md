@@ -25,20 +25,16 @@ Silhouette score calculation
 
 Hyperparameter search code is intentionally excluded, as required.
 
-Output
+<h2>Output<h2>
 
 The code prints:
 
-Number of clusters found
+- Number of clusters found
+- Final silhouette score
+- Number of instances in each cluster
 
-Final silhouette score
+<h3>Requirements<h3>
 
-Number of instances in each cluster
-
-Requirements
-
-Python
-
-scikit-learn
-
-numpy, pandas, matplotlib (for analysis and visualization)
+- Python
+- scikit-learn
+- numpy, pandas, matplotlib 
